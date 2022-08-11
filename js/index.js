@@ -30,3 +30,8 @@ document.getElementById('text_ourblogs').innerHTML = Ourblogs(ourblogs);
 import { Bestseller } from "./card.js";
 import { bestseller } from "./const.js";
 document.getElementById('text_bestseller').innerHTML = Bestseller(bestseller);
+
+// button
+import { Button } from "./card.js";
+import { buttons } from "./const.js";
+// document.getElementById('text_shoes').innerHTML = Button(buttons)

@@ -58,11 +58,11 @@ export const shoes = [
 ]
 
 // button
-// export const buttons = [
-//     {
-//         button:'SHOP NOW'
-//     }
-// ]
+export const buttons = [
+    {
+        button:'SHOP NOW'
+    }
+]
 
 export const ourblogs = [
     {

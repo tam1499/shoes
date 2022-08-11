@@ -37,6 +37,7 @@ export function Shoe(props) {
       return (content += `
       <div key=${index} class="image_shoes">
           <img src=${item.image}/>   
+          <button class="btn_Shopnow">SHOP NOW</button>
       </div>
             `);
     });
@@ -60,23 +61,21 @@ export function Ourblogs(props) {
   }
   return content;
 }
-//Testimonials
-// export function Testimonial(props) {
-//   let content = "";
-//   if (props) {
-//     props.map((item, index) => {
-//       return (content += `
-//       <div key=${index} class="div_testimonials">
-//           <div class="image_testimonial"><img src=${item.image} /></div>
-//           <div class="slide"><h4>${item.name}</h4></div>
-//           <div class="slide"><p>${item.title}</p></div>
-//           <div class="slide"><p>${item.p}<p/></div>
-//       </div>
-//             `);
-//     });
-//   }
-//   return content;
-// }
+// button
+export function Button(props) {
+  let content = "";
+  if (props) {
+    props.map((item, index) => {
+      return (content += `
+      <div key=${index}>
+          <<div><src=>${item.button} /></div>
+      </div>
+            `);
+    });
+  }
+  return content;
+}
+
 // bestseller
 export function Bestseller(props) {
   let content = "";
