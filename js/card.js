@@ -68,7 +68,7 @@ export function Button(props) {
     props.map((item, index) => {
       return (content += `
       <div key=${index}>
-          <<div><src=>${item.button} /></div>
+          <div>${item.button} /></div>
       </div>
             `);
     });
@@ -82,13 +82,36 @@ export function Bestseller(props) {
   if (props) {
     props.map((item, index) => {
       return (content += `
-      <div key=${index}>
+      <div key=${index} >
           <div><img src=${item.image} width="300px" height="300px"></div>
           <div><h4>${item.name}</h4></div>
           <div><p class="price_bestseller">${item.price}</p></div>
+          <div class="icon_list_bestseller">
+              <div class="btn_icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="btn_icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+          </div>
       </div>
             `);
     });
   }
   return content;
 }
+// icon_bestseller 
+// export function Icon(props) {
+//   let content = "";
+//   if (props) {
+//     props.map((item, index) => {
+//       return (content += `
+//       <div key=${index}>
+//         <div>${item.icon1}</div>
+//         <div>${item.icon2}</div>
+//       </div>
+//             `);
+//     });
+//   }
+//   return content;
+// }
