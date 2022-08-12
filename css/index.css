@@ -124,6 +124,10 @@
   height: 440px;
   padding-top: 20px;
 }
+.view_more:hover{
+  color: orange;
+  transition: 0.45s linear;
+}
 
 .div_image {
   background: white;
@@ -362,6 +366,7 @@
 #text_ourblogs {
   display: flex;
   text-align: center;
+  line-height: 30px;
 }
 
 .list_imageOurblogs {
@@ -384,6 +389,9 @@
   padding-left: 60px;
   padding-right: 60px;
   margin-top: 30px;
+  
+}
+#text_bestseller >div{
   position: relative;
 }
 .price_bestseller {
@@ -394,21 +402,38 @@
   font-size: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* position: absolute; */
-  z-index: 3;
-  bottom: 5px;
+  z-index: 1;
+  bottom: 0;
+  position: absolute;
+  visibility: hidden;
+  transition: 0.45s linear;
 }
-/* .bestseller{
-  position: relative;
-} */
+#text_bestseller>div> div{
+  overflow-y: hidden;
+}
+#text_bestseller>div:hover .icon_list_bestseller{
+  transform: translateY(-40px);
+  visibility: visible;
+}
 .btn_icon{
-  border-right: 1px solid gray;
+  /* border-right: 1px solid gray; */
   width: 150px;
   height: 35px;
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.btn_icon:nth-child(1)::after{
+  content: "";
+  width: 1px;
+  height: 30px;
+  background-color: gray;
+  position:absolute;
+  right: 0;
+  top:50%;
+  transform: translateY(-50%);
 }
 /* two_image */
 .two_image {

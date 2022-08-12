@@ -83,17 +83,19 @@ export function Bestseller(props) {
     props.map((item, index) => {
       return (content += `
       <div key=${index} >
-          <div><img src=${item.image} width="300px" height="300px"></div>
+          <div><img src=${item.image} width="300px" height="300px class="image_bestseller">
+          <div class="icon_list_bestseller">
+          <div class="btn_icon">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="btn_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+      </div>
+          </div>
           <div><h4>${item.name}</h4></div>
           <div><p class="price_bestseller">${item.price}</p></div>
-          <div class="icon_list_bestseller">
-              <div class="btn_icon">
-                <i class="fa-solid fa-heart"></i>
-              </div>
-              <div class="btn_icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-          </div>
+         
       </div>
             `);
     });
