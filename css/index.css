@@ -124,7 +124,7 @@
   height: 440px;
   padding-top: 20px;
 }
-.view_more:hover{
+.view_more:hover {
   color: orange;
   transition: 0.45s linear;
 }
@@ -336,10 +336,10 @@
   /* padding: auto; */
   position: relative;
 }
-#text_shoes > div{
+#text_shoes > div {
   position: relative;
 }
-.btn_Shopnow{
+.btn_Shopnow {
   position: absolute;
   left: 50%;
   bottom: 50px;
@@ -353,7 +353,7 @@
   transition: 0.45s linear;
   font-weight: 500;
 }
-.btn_Shopnow:hover{
+.btn_Shopnow:hover {
   background: black;
   color: white;
 }
@@ -389,15 +389,14 @@
   padding-left: 60px;
   padding-right: 60px;
   margin-top: 30px;
-  
 }
-#text_bestseller >div{
-  position: relative;
+#text_bestseller > div {
+cursor: pointer;
 }
 .price_bestseller {
   color: orange;
 }
-.icon_list_bestseller{
+.icon_list_bestseller {
   width: 100%;
   font-size: 25px;
   display: grid;
@@ -405,17 +404,17 @@
   z-index: 1;
   bottom: 0;
   position: absolute;
-  visibility: hidden;
   transition: 0.45s linear;
+  transform: translateY(100%);
 }
-#text_bestseller>div> div{
+#text_bestseller > div > div:nth-child(1) {
   overflow-y: hidden;
+  position: relative;
 }
-#text_bestseller>div:hover .icon_list_bestseller{
-  transform: translateY(-40px);
-  visibility: visible;
+#text_bestseller > div:hover .icon_list_bestseller {
+  transform: translateY(0px);
 }
-.btn_icon{
+.btn_icon {
   /* border-right: 1px solid gray; */
   width: 150px;
   height: 35px;
@@ -425,14 +424,14 @@
   align-items: center;
   position: relative;
 }
-.btn_icon:nth-child(1)::after{
+.btn_icon:nth-child(1)::after {
   content: "";
   width: 1px;
   height: 30px;
   background-color: gray;
-  position:absolute;
+  position: absolute;
   right: 0;
-  top:50%;
+  top: 50%;
   transform: translateY(-50%);
 }
 /* two_image */
@@ -526,7 +525,7 @@
   margin-right: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
-  transition: .45s;
+  transition: 0.45s;
   border-radius: 8px;
   border: 2px dashed #fff;
   padding: 0 auto;
@@ -537,12 +536,12 @@
   opacity: 0.75;
   color: orange;
 }
-.slide:hover{
+.slide:hover {
   transform: translateY(-30px);
   border: 3px dashed orange;
   border-radius: 8px;
 }
-.image_slide{
+.image_slide {
   margin: 0 auto;
 }
 .testimonials {
@@ -552,7 +551,6 @@
 .testimonials .slick-list .slick-track .slide {
   padding: 20px;
   padding-top: 30px;
-
 }
 
 /* footer */
@@ -574,7 +572,7 @@
   border: none;
   padding-left: 10px;
   font-weight: 700px;
-  margin-top:20px;
+  margin-top: 20px;
   outline: none;
 }
 .input_footer::placeholder {
@@ -592,7 +590,7 @@
   display: block;
   margin-right: 10px;
   transition: 0.9s;
-  margin-top:20px;
+  margin-top: 20px;
 }
 .btn_Sub:hover {
   background: #ffc107;
@@ -629,7 +627,7 @@
   align-items: center;
   transition: 0.5s linear;
 }
-.icon_footer:hover{
+.icon_footer:hover {
   color: orange;
   border: 2px solid orange;
 }
