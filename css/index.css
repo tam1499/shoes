@@ -633,7 +633,12 @@
   color: orange;
   border: 2px solid orange;
 }
-
+.text_footer:hover{
+  transition: 0.4s;
+}
+.text_footer:hover{
+  color: orange;
+}
 /* slick */
 .slick-dots li button:before {
   font-family: "slick";
