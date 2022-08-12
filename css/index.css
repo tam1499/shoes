@@ -102,6 +102,7 @@
   border: 1px solid white;
   font-size: 15px;
   font-weight: 400;
+  margin-top: 20px;
 }
 
 .shop_now:hover {
@@ -336,11 +337,22 @@
 }
 .btn_Shopnow{
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 50%;
+  bottom: 50px;
   z-index: 2;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 44px;
+  font-size: 15px;
+  border: none;
+  background: white;
+  transition: 0.45s linear;
+  font-weight: 500;
 }
-
+.btn_Shopnow:hover{
+  background: black;
+  color: white;
+}
 #text_shoes > div {
   float: left;
   padding: 15px;
@@ -372,9 +384,31 @@
   padding-left: 60px;
   padding-right: 60px;
   margin-top: 30px;
+  position: relative;
 }
 .price_bestseller {
   color: orange;
+}
+.icon_list_bestseller{
+  width: 100%;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* position: absolute; */
+  z-index: 3;
+  bottom: 5px;
+}
+/* .bestseller{
+  position: relative;
+} */
+.btn_icon{
+  border-right: 1px solid gray;
+  width: 150px;
+  height: 35px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* two_image */
 .two_image {

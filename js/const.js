@@ -154,3 +154,9 @@ export const bestseller = [
         price:'$65.00',
     },
 ]
+// export const icons = [
+//     {
+//         icon1 :'<i class="fa-solid fa-heart"></i>',
+//         icon2 :'<i class="fa-solid fa-magnifying-glass"></i>',
+//     }
+// ]

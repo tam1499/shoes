@@ -35,3 +35,7 @@ document.getElementById('text_bestseller').innerHTML = Bestseller(bestseller);
 import { Button } from "./card.js";
 import { buttons } from "./const.js";
 // document.getElementById('text_shoes').innerHTML = Button(buttons)
+
+// icon_bestseller 
+// import { Icon } from "./card.js";
+// import { icons } from "./const.js";
