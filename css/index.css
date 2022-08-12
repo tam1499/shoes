@@ -331,7 +331,7 @@
   /* padding: auto; */
   position: relative;
 }
-.text_shoes{
+#text_shoes > div{
   position: relative;
 }
 .btn_Shopnow{
