@@ -8,7 +8,7 @@
 /* header */
 .header__nike {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .header__nike_logo {
@@ -651,3 +651,43 @@ cursor: pointer;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: orange;
 }
+
+/* --- desktop 1920px ---*/
+@media only screen and (max-width:1920px){
+  /* header */
+  .list__icon{
+    padding-right: 150px;
+  }
+  /* view more  */
+  .div_image{
+    width: 32%;
+  }
+  #text{
+    padding-right: 15px;
+  }
+  /* best seller  */
+  #text_bestseller{
+    width: 90%;;
+    margin: 0 auto;
+  }
+  #text_shoes{
+    padding-left: 210px;
+    margin: 0 auto;
+  }
+  .list_imageOurblogs{
+    width: 90%;
+  }
+
+}
+/* --- 990px---  */
+@media only screen and (max-width:990px){
+   /* 5 shoes  */
+   
+  /* Testimonials  */
+  .list_imageOurblogs{
+    width: 100%;
+  }
+}
+/* ---tablet 768px---  */
+
+/* ---mobile 375px--- */
