@@ -677,11 +677,15 @@ cursor: pointer;
   .list_imageOurblogs{
     width: 90%;
   }
-
 }
 /* --- 990px---  */
 @media only screen and (max-width:990px){
-   /* 5 shoes  */
+  /* header */
+  .list_icon{
+    padding-right: 20px;
+    background: red;
+  }
+    
    
   /* Testimonials  */
   .list_imageOurblogs{
