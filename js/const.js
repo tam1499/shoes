@@ -85,33 +85,6 @@ export const ourblogs = [
     }
 ]
 
-// export const testimonials = [
-//     {
-//         image:'https://cdn.shopify.com/s/files/1/0577/6451/1926/files/people3.png?v=1623920970',
-//         name:"DESTINEE",
-//         title:"Marketing Personal",
-//         p:"Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!"
-//     },
-//     {
-//         image:'https://cdn.shopify.com/s/files/1/0577/6451/1926/files/people4.png?v=1623920971',
-//         name:"DESTINEE",
-//         title:"Marketing Personal",
-//         p:"Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!"
-//     },
-//     {
-//         image:'https://cdn.shopify.com/s/files/1/0577/6451/1926/files/people1.png?v=1623920970',
-//         name:"DESTINEE",
-//         title:"Marketing Personal",
-//         p:"Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!"
-//     },
-//     {
-//         image:'https://cdn.shopify.com/s/files/1/0577/6451/1926/files/people2.png?v=1623920971',
-//         name:"DESTINEE",
-//         title:"Marketing Personal",
-//         p:"Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!"
-//     },
-// ]
-
 export const bestseller = [
     {
         image:'https://cdn.shopify.com/s/files/1/0577/6451/1926/products/4.1.jpg?v=1623920205',

@@ -19,6 +19,11 @@
 <body>
     <!-- header -->
     <div class="header__nike">
+        <span class="icon_menu" onclick="clickDifirst()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
         <div class="header__nike_logo">
             <img src="../image/logo.webp" alt="1" width="140px" height="20px">
         </div>
@@ -183,41 +188,70 @@
             <div class="icon">
                 <i class="fa-solid fa-bag-shopping"></i>
             </div>
-
+            <div class="icon_res">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon_res">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- mobile navbar  -->
+    <div class="mobile__navbar"  id="mobile__navbar">
+        <div class="menu_navbar" >
+            <div class="menu_navbar_list" id="menu_navbar">
+                <div class="div_menu">
+                    <span class="icon_menu_navbar" onclick="clickDi()">
+                         <span></span>
+                         <span></span>
+                        <span></span>
+                    </span>  
+                    <p>MENU</p>
+                </div>
+                <div class="div_login">
+                    <i class="fa-solid fa-user-large"></i>
+                    <p>LOGIN</p>
+                </div>
+            </div>
+            <p class="list_menu_navber">Home</p>
+            <p class="list_menu_navber">Shop</p>
+            <p class="list_menu_navber">Featured</p>
+            <p class="list_menu_navber">Pages</p>
+            <p class="list_menu_navber">Blogs</p>
         </div>
     </div>
     
     <!-- carousel -->
-    <!-- <div class="carousel">
-        <img src="../image/slide1.1.jpg" alt="2" width="100%" height="594px">
+    <div class="carousel">
+        <img src="../image/slide1.1.jpg" alt="2" width="100%" height="594px" class="img_carousel">
         <div class="text">
             <h1>High-end Carbon</h1>
             <p>We would argue that loosing zero energy during<br>
                 those pedal strokes is quite important if you want to win a race.</p>
             <button class="shop_now">SHOP NOW</button>
         </div>
-    </div> -->
+    </div>
     <!-- view more  -->
-    <!-- <div id="text"></div> -->
+    <div id="text"></div>
     <!-- 5 shoe -->
-    <!-- <div class="all_shoe">
-        <div id="text_shoes"></div>
-    </div> -->
+    <div class="all_shoe">
+        <!-- <div id="text_shoes"></div> -->
+    </div>
 
 
     <!-- Best Seller -->
-    <!-- <div>
+    <div>
         <h3 style="text-align: center; font-size: 28px; margin-top: 120px;">Best Seller</h3>
-       <p style="text-align:center"><i>Best Seller Product This Week!</i></p>
+        <p style="text-align:center"><i>Best Seller Product This Week!</i></p>
         <div class="bestseller">
             <div id="text_bestseller"></div>
         </div>
-        
-    </div> -->
+    </div>
 
     <!-- two_image -->
-    <!-- <div class="two_image">
-        <div class="first_image" >
+    <div class="two_image">
+        <div class="first_image">
             <img src="../image/banner1.1.webp" class="image_banner1" width="100%">
             <div class="text_first">
                 <h2>FIND THE BEST COLLECTION AROUND THE WORLD</h2>
@@ -225,54 +259,62 @@
             </div>
         </div>
         <div class="seccond_image">
-            <img src="../image/banner1.2.webp"  class="image_banner2" width="100%">
+            <img src="../image/banner1.2.webp" class="image_banner2" width="100%">
             <div class="text_seccond">
                 <h2>NEW TREND FOR TRADE AND MINING COMPANY</h2>
-                <button  class="btn_seccond">VIEW COLLECTION</button>
+                <button class="btn_seccond">VIEW COLLECTION</button>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
 
     <!-- Testimonials -->
-    <!-- <h1 style="text-align: center; margin-top: 50px; margin-bottom:40px">Testimonials</h1> -->
-    <!-- <div class="testimonials">
+    <h1 style="text-align: center; margin-top: 50px; margin-bottom:40px">Testimonials</h1>
+    <div class="testimonials">
         <div class="slide">
             <img src="../image/people1.webp" class="image_slide">
             <h4>DESTINEE</h4>
             <p>Marketing Personal</p>
-            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!</p>         
+            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I
+                paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!
+            </p>
         </div>
         <div class="slide">
             <img src="../image/people2.webp" class="image_slide">
             <h4>DESTINEE</h4>
             <p>Marketing Personal</p>
-            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!</p>         
+            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I
+                paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!
+            </p>
         </div>
         <div class="slide">
             <img src="../image/people3.webp" class="image_slide">
             <h4>DESTINEE</h4>
             <p>Marketing Personal</p>
-            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!</p>         
+            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I
+                paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!
+            </p>
         </div>
         <div class="slide">
             <img src="../image/people4.webp" class="image_slide">
             <h4>DESTINEE</h4>
             <p>Marketing Personal</p>
-            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!</p>         
+            <p>Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more than I
+                paid Saved our business! We have no regrets! Thanks for the great service. Shoesf is worth much more!
+            </p>
         </div>
-    </div> -->
+    </div>
 
 
 
     <!-- ourblogs -->
-    <!-- <h1 style="text-align: center; margin-top: 50px;">Our Blogs</h1>
-    <div id="text_ourblogs"></div> -->
+    <h1 style="text-align: center; margin-top: 50px;">Our Blogs</h1>
+    <div id="text_ourblogs"></div>
     <!-- footer -->
-    <!-- <div class="footer">
+    <div class="footer">
         <div class="footer__top">
-            <div>
+            <div class="col_1">
                 <h3>Shop</h3>
                 <p class="text_footer">About Us</p>
                 <p class="text_footer">Privacy Policy</p>
@@ -280,7 +322,7 @@
                 <p class="text_footer">Products Return</p>
                 <p class="text_footer">Wholesale Policy</p>
             </div>
-            <div>
+            <div class="col_1">
                 <h3>Infomation</h3>
                 <p class="text_footer">Pagination</p>
                 <p class="text_footer">Terms & Conditions</p>
@@ -288,7 +330,7 @@
                 <p class="text_footer">Accessories</p>
                 <p class="text_footer">Term of use</p>
             </div>
-            <div>
+            <div class="col_1">
                 <h3>About</h3>
                 <p class="text_footer">Help Center</p>
                 <p class="text_footer">Address Store</p>
@@ -296,7 +338,7 @@
                 <p class="text_footer">Receivers & Amplifiers</p>
                 <p class="text_footer">ShoesfStore</p>
             </div>
-            <div>
+            <div class="col_1">
                 <h3>Follow Us</h3>
                 <p class="text_footer"> <i class="fa-solid fa-phone"></i> 0123 456 789</p>
                 <p class="text_footer"> <i class="fa-solid fa-tty"></i> 0123 456 789</p>
@@ -317,28 +359,29 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="col_2">
                 <h3>Newsletters</h3>
                 <p>Be the first who learns about our great promotions!</p>
-               <div class="div_input">
-                <input type="text" placeholder="Enter your email..." class="input_footer">
-                <button class="btn_Sub">Subscribe</button>
-               </div>
+                <div class="div_input">
+                    <input type="text" placeholder="Enter your email..." class="input_footer">
+                    <button class="btn_Sub">Subscribe</button>
+                </div>
             </div>
         </div>
         <hr style="color: rgb(177, 169, 169);">
         <div class="footer__bottom">
-            <div>
+            <div class="div_logo">
                 <img src="../image/logo.webp" width="140px" height="20px">
             </div>
             <div class="image_footer">
-                <img src="../image/pay_copyright (1).webp">
+                <img src="../image/pay_copyright (1).webp" class="img_footer">
             </div>
-            <div>
-                <p>© Copyright 2021 | <span style="color:orange;">ShoesfStore</span> By ThemeOcean.<span style="color:orange;">Powered by Shopify.</span></p>
+            <div class="div_footer">
+                <p>© Copyright 2021 | <span style="color:orange;">ShoesfStore</span> By ThemeOcean.<span
+                        style="color:orange;">Powered by Shopify.</span></p>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
 
@@ -352,12 +395,18 @@
     <script type="module" src="../js/const.js"></script>
     <script src="../slick/slick.min.js"></script>
     <script type="module" src="../js/index.js"></script>
+    <script src="../js/main.js"></script>
     <script>
         $('.testimonials').slick({
             dots: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            speech: 1000,
+            responsive: [{
+                breakpoint: 576,
+                settings:{
+                slidesToShow: 1
+                }
+          }]
         }); 
     </script>
 </body>

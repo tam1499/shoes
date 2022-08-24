@@ -36,7 +36,7 @@ export function Shoe(props) {
     props.map((item, index) => {
       return (content += `
       <div key=${index} class="image_shoes">
-          <img src=${item.image}/>   
+          <img src=${item.image} class="img_shoe"/>   
           <button class="btn_Shopnow">SHOP NOW</button>
       </div>
             `);
@@ -83,7 +83,7 @@ export function Bestseller(props) {
     props.map((item, index) => {
       return (content += `
       <div key=${index} >
-          <div><img src=${item.image} width="300px" height="300px class="image_bestseller">
+          <div><img src=${item.image} width="300px" height="300px" class="image_bestseller">
           <div class="icon_list_bestseller">
           <div class="btn_icon">
             <i class="fa-solid fa-heart"></i>
@@ -93,7 +93,7 @@ export function Bestseller(props) {
           </div>
       </div>
           </div>
-          <div><h4>${item.name}</h4></div>
+          <div><h4 class="name_bestseller">${item.name}</h4></div>
           <div><p class="price_bestseller">${item.price}</p></div>
          
       </div>
